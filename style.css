@@ -1,0 +1,117 @@
+#logo{
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+#h1_main{
+    padding: 250px;
+    text-align: center;
+    background-image: url("hbg.jpg");
+    font-size: 85px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top:30px;
+
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background: #21161e;
+    opacity: 95%;
+}
+#div_ft{
+    padding-bottom: 25px;
+}
+.topnav{
+    background-color: transparent;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 1px;
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+}
+.logot img{
+    width: 100px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+#author{
+    padding-top: 0px;
+    text-align: center;
+}
+#code_snippet1{
+    margin: auto;
+}
+#snip1{
+    width: 65%;
+    height: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+#code_snippet2{
+    margin: auto;
+}
+#snip2{
+    width: 65%;
+    height: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+#code_snippet3{
+    margin: auto;
+}
+#snip3{
+    width: 65%;
+    height: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+#code_snippet4{
+    margin: auto;
+}
+#snip4{
+    width: 65%;
+    height: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+#out{
+    margin: auto;
+}
+#output{
+    width: 65%;
+    height: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}

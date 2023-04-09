@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Using Elixir</title>
+</head>
+<body>
+<div>
+    <h1 id="logo">
+        <a href="Home.html"> <img src="artificial-intelligence%20(1).png" alt="brain logo"></a>
+    </h1>
+    <h1 class="logot">
+        <a href="Home.html"> <img src="deltalogo.png"></a>
+    </h1>
+</div>
+<header>
+    <div class="topnav">
+        <div class = "container">
+            <a>About </a>
+            <a> Blogs</a>
+            <a href="Home.html" style="color: white">Home</a>
+        </div>
+    </div>
+    <div class="header">
+        <h1 id="h1_main">Using Elixir</h1>
+    </div>
+</header>
+<div>
+    <p>In this blog post, we are going to make a simple program using Elixir.</p>
+    <h1>Guess the number</h1>
+    <p>To begin with, elixir must be installed using the given directions [link in the last blog].
+        There are multiple ways to run a file in elixir. I prefer using mix for programs that are bigger. Since this one is just a simple program, I am just using any common IDE. You have to create a file with .ex extension.
+    </p><br>
+    <div>
+        <p>1.   In elixir, modules are the basis of code organization. So let us name the project Guess.</p><br>
+        <div id = code_snippet1>
+            <img src="L1.png" alt="Snippet 1" id="snip1">
+        </div>
+        <p>All named functions are defined inside the module. Named function usually use <mark>def</mark>, but to make a function private, you can use <mark>defp</mark>.</p>
+</div><br>
+    <div>
+        <p>2.
+        </p>
+        <div id="code_snippet2">
+            <img src="SN2.png" alt="Snippet 2" id="snip2">
+            <p>Here a new function <mark>guess()</mark> is defined, which generates a random number in between 1 and 100. <mark>IO.puts</mark> is the print statement for Elixir. And then the function is called, that will serve as a loop.
+            </p>
+        </div>
+        <div>
+            <p>3.
+            </p>
+            <div id="code_snippet3">
+                <img src="SN3.png" alt="Snippet 3" id="snip3">
+                <p>Now rest of the program is implemented in the <mark>guess_loop()</mark> function. There are different ways to loop in elixir and in this one we are using tail recursion. It simply means that the last statement in the function is the recursive call to the same function. The <mark>IO.reads</mark>, reads the input from the user and the <mark>parse()</mark> to convert the input to an integer. </p>
+            </div>
+        </div>
+        <div>
+            <p>4.
+            </p>
+            <div id="code_snippet4">
+            <img src="SN4.png" alt="Snippet 4" id="snip4">
+                <p>The cond is an elixir version of branched statement. But unlike if/else, the branches are treated equally. This cond statement has a three-way branch: The guess can be smaller, bigger, or equal to the random number. The first two options output the inequality's direction and then tail-call <mark>guess_loop()</mark>, looping back to the beginning. The last option outputs That's right, and the function finishes.</p>
+            </div>
+            <div>
+                <p>And voila! You just created your first elixir project. For me making a simple game is the best way to learn a language. Also you can try coding some projects you tried in other programming lanuages to Elixir. It might be a bit hard, but it is gonna be fun. The sample output is given below:</p>
+    <div id="out">
+        <img src="out.png" alt="Output" id="output">
+    </div>
+<p> To learn Elixir,<a href="https://exercism.org/"> Exercism</a> is a really great platform. You can check out the link to learn about this. To see the demonstration, follow the link : <a href="https://youtu.be/FQfamaQw7a8" style="color: white">Go to the video.</a></p>
+            </div>
+</head>
+</div>
+</body>
+</html>
